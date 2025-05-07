@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        triplet: [x64-windows-webkit]
+        triplet: [arm64-windows-webkit]
 
     steps:
       - uses: actions/checkout@v4
